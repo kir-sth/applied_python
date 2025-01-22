@@ -1,0 +1,6 @@
+aiogram
+pydantic_settings
+sqlalchemy
+aiosqlite
+greenlet
+alembic
