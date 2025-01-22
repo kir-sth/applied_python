@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  bot:
+    build: .
+    container_name: fitness_bot
+    restart: always
+    volumes:
+      - ./data:/app/data
+      - ./.env:/app/.env
+
+volumes:
+  data:
